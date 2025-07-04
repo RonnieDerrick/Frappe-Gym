@@ -242,3 +242,11 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+scheduler_events = {
+    "cron": {
+        "0 8 * * MON": [  # every Monday 8 AM
+            "gym_management.gym_management.weekly_tasks.weekly_class_summary.send_weekly_class_summary"
+        ]
+    }
+}
+

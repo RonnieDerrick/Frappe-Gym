@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-03 08:40:26.004726",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "total_lockers_available",
+  "gym_opening_time",
+  "gym_closing_time",
+  "column_break_hels",
+  "support_email",
+  "contact_phone",
+  "weekly_class_limit"
+ ],
+ "fields": [
+  {
+   "fieldname": "total_lockers_available",
+   "fieldtype": "Int",
+   "label": "Total Lockers Available"
+  },
+  {
+   "fieldname": "gym_opening_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Gym Opening Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gym_closing_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Gym Closing Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hels",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "support_email",
+   "fieldtype": "Data",
+   "label": "Support Email"
+  },
+  {
+   "fieldname": "contact_phone",
+   "fieldtype": "Data",
+   "label": "Contact Phone"
+  },
+  {
+   "fieldname": "weekly_class_limit",
+   "fieldtype": "Int",
+   "label": "Weekly Class Limit"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-07-03 08:50:33.511977",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Gym Member",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Gym Trainer",
+   "share": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

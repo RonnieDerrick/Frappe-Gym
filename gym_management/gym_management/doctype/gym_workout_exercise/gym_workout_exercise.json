@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{exercise_name}",
+ "creation": "2025-07-02 17:05:57.201163",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exercise_name",
+  "sets",
+  "repetitions",
+  "column_break_bmew",
+  "restsec",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "exercise_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exercise Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sets",
+   "fieldtype": "Int",
+   "label": "Sets"
+  },
+  {
+   "fieldname": "repetitions",
+   "fieldtype": "Int",
+   "label": "Repetitions"
+  },
+  {
+   "fieldname": "column_break_bmew",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "restsec",
+   "fieldtype": "Int",
+   "label": "Rest(sec)"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-02 17:13:39.466085",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Workout Exercise",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
