@@ -250,3 +250,14 @@ scheduler_events = {
     }
 }
 
+on_session_creation = [
+    "gym_management.services.rest.redirect_user_to_dashboard"
+]
+
+home_page = "users"
+
+role_home_page = {
+    "Gym Admin": "users",
+    "Gym Member": "users",
+    "Gym Trainer": "users"
+}

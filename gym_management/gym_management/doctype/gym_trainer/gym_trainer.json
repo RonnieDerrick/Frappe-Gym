@@ -9,6 +9,7 @@
   "full_name",
   "email",
   "phone_number",
+  "staus",
   "column_break_kiww",
   "gender",
   "specialization",
@@ -53,12 +54,19 @@
    "fieldname": "ratingout_of_10",
    "fieldtype": "Int",
    "label": "Rating(Out of 10)"
+  },
+  {
+   "fieldname": "staus",
+   "fieldtype": "Select",
+   "label": "Staus",
+   "options": "Active\nInactive",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-03 13:49:20.336383",
+ "modified": "2025-07-09 11:36:28.423191",
  "modified_by": "Administrator",
  "module": "Gym Management",
  "name": "Gym Trainer",
