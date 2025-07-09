@@ -12,7 +12,9 @@
   "duration_weeks",
   "exercises",
   "column_break_tfik",
-  "description"
+  "description",
+  "amended_from",
+  "gym_user"
  ],
  "fields": [
   {
@@ -51,13 +53,29 @@
    "fieldname": "description",
    "fieldtype": "Small Text",
    "label": "Description"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Workout Plan",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "gym_user",
+   "fieldtype": "Link",
+   "label": "Gym User",
+   "options": "User"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-02 17:26:55.055276",
+ "modified": "2025-07-09 12:58:59.020760",
  "modified_by": "Administrator",
  "module": "Gym Management",
  "name": "Gym Workout Plan",
@@ -85,6 +103,16 @@
    "report": 1,
    "role": "Gym Member",
    "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Trainer",
+   "share": 1,
+   "write": 1
   }
  ],
  "row_format": "Dynamic",

@@ -13,7 +13,8 @@
   "end_date",
   "column_break_vvjw",
   "status",
-  "notes"
+  "notes",
+  "gym_user"
  ],
  "fields": [
   {
@@ -63,13 +64,19 @@
    "fieldname": "notes",
    "fieldtype": "Small Text",
    "label": "Notes"
+  },
+  {
+   "fieldname": "gym_user",
+   "fieldtype": "Link",
+   "label": "Gym User",
+   "options": "User"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-02 16:53:32.561039",
+ "modified": "2025-07-09 12:24:29.301946",
  "modified_by": "Administrator",
  "module": "Gym Management",
  "name": "Gym Locker Booking",
@@ -91,16 +98,13 @@
   },
   {
    "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "Gym Member",
-   "share": 1,
-   "submit": 1,
-   "write": 1
+   "share": 1
   }
  ],
  "row_format": "Dynamic",
