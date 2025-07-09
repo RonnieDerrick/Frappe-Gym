@@ -261,3 +261,8 @@ role_home_page = {
     "Gym Member": "users",
     "Gym Trainer": "users"
 }
+
+
+fixtures = [
+    "Custom Field"
+]
