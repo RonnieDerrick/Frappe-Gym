@@ -13,7 +13,8 @@
   "column_break_kiww",
   "gender",
   "specialization",
-  "ratingout_of_10"
+  "ratingout_of_10",
+  "assigned_trainer"
  ],
  "fields": [
   {
@@ -61,12 +62,19 @@
    "label": "Staus",
    "options": "Active\nInactive",
    "reqd": 1
+  },
+  {
+   "fieldname": "assigned_trainer",
+   "fieldtype": "Link",
+   "label": "Assigned Trainer",
+   "options": "Gym Member",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-09 11:36:28.423191",
+ "modified": "2025-07-10 15:47:36.786588",
  "modified_by": "Administrator",
  "module": "Gym Management",
  "name": "Gym Trainer",

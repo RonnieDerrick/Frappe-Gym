@@ -15,7 +15,8 @@
   "amount_paid",
   "payment_status",
   "membership_status",
-  "gym_user"
+  "gym_user",
+  "amended_from"
  ],
  "fields": [
   {
@@ -78,13 +79,23 @@
    "fieldtype": "Link",
    "label": "Gym User",
    "options": "User"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Membership",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-09 12:23:24.499474",
+ "modified": "2025-07-10 13:41:44.034241",
  "modified_by": "Administrator",
  "module": "Gym Management",
  "name": "Gym Membership",
@@ -105,16 +116,13 @@
    "write": 1
   },
   {
-   "create": 1,
    "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "Gym Member",
-   "share": 1,
-   "submit": 1,
-   "write": 1
+   "share": 1
   }
  ],
  "row_format": "Dynamic",

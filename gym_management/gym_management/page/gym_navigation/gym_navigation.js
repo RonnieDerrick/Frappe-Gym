@@ -237,3 +237,4 @@ frappe.pages['gym_navigation'].on_page_load = function (wrapper) {
         }
     });
 };
+

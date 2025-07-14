@@ -27,7 +27,8 @@
   {
    "fieldname": "email",
    "fieldtype": "Data",
-   "label": "Email"
+   "label": "Email",
+   "reqd": 1
   },
   {
    "fieldname": "phone_number",
@@ -75,7 +76,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-09 12:36:01.205428",
+ "modified": "2025-07-10 16:13:06.828208",
  "modified_by": "Administrator",
  "module": "Gym Management",
  "name": "Gym Member",
@@ -98,10 +99,12 @@
   {
    "email": 1,
    "export": 1,
+   "if_owner": 1,
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "Gym Member",
+   "select": 1,
    "share": 1
   }
  ],
